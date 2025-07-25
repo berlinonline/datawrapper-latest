@@ -3,6 +3,12 @@
 A simple class that gets the current version number of a [Datawrapper](https://www.datawrapper.de) project based on the chart Id.
 This is necessary because currently there is no API that does this, and no automatic redirect to the current version (that doesn't involve JavaScript!).
 
+## Requirements
+
+- Python (tested with Python 3.13)
+- [requests](https://pypi.org/project/requests/)
+
+
 ## Installation
 
 ### ... as a project requirement
