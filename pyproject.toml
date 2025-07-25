@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "datawrapper-connector"
+version = "0.0.1"
+authors = [
+  { name="Knud Möller", email="knud.moeller@berlinonline.de" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+description = "Get the URL of the latest dataset version of a Datawrapper chart."
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/berlinonline/datawrapper-connector"
+Issues = "https://github.com/berlinonline/datawrapper-connector/issues"
