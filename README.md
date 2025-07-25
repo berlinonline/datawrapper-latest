@@ -10,7 +10,7 @@ This is necessary because currently there is no API that does this, and no autom
 Add this repository as a requirement to your project by adding the following line to your project's `requirements.txt`:
 
 ```
-datawrapper-connector @ git+https://github.com/berlinonline/datawrapper-connector@main
+datawrapper-latest @ git+https://github.com/berlinonline/datawrapper-latest@main
 ```
 
 Install the requirements:
@@ -24,7 +24,7 @@ $ pip install -r requirements.txt
 Alternatively, install directly via `pip`:
 
 ```
-pip install git+https://github.com/berlinonline/datawrapper-connector@main
+pip install git+https://github.com/berlinonline/datawrapper-latest@main
 ```
 
 ### ... from source
@@ -32,8 +32,8 @@ pip install git+https://github.com/berlinonline/datawrapper-connector@main
 You can also clone the repository and install it from source:
 
 ```
-$ git clone https://github.com/berlinonline/datawrapper-connector
-$ cd datawrapper-connector
+$ git clone https://github.com/berlinonline/datawrapper-latest
+$ cd datawrapper-latest
 $ python -m venv venv
 $ . venv/bin/activate
 (venv) $ pip install .
