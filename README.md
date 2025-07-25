@@ -1,6 +1,6 @@
 # Datawrapper Latest
 
-A simple class that gets the current version number of a [Datawrapper](https://www.datawrapper.de) project based on the chart Id.
+A simple class that gets the current version of a [Datawrapper](https://www.datawrapper.de) data file based on the chart Id.
 This is necessary because currently there is no API that does this, and no automatic redirect to the current version (that doesn't involve JavaScript!).
 
 ## Requirements
